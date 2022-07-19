@@ -12,7 +12,7 @@ roll_again = "yes"
 while roll_again == "yes" or roll_again == "y":
 
 print("Rolling The Dices...")
-    print("The Values are :")
+print("The Values are :")
    
 #generating and printing 1st random integer from 1 to 6
 print(random.randint(min_val, max_val))
